@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:text="WOMEN SAFETY"
+        android:textColor="@color/colorGrl"
+        android:fontFamily="monospace"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="10dp"
+        android:text="Instructions"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guard"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="125dp"
+        android:text="Guardian Angels"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="157dp"
+        android:text="ALERT!!!"
+        android:id="@+id/alert"
+        android:textColor="@color/colorGrl"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:background="@drawable/round" />
+
+</LinearLayout>

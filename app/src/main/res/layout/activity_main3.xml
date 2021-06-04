@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="REGISTER/VIEW GUARDIANS"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="131dp"
+        android:id="@+id/add"
+        android:text="Add Guardian"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="123dp"
+        android:id="@+id/view"
+        android:text="View Guardians"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/home"
+        android:text="Home" />
+
+</LinearLayout>
